@@ -1,12 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "bb7MYGXjqMQCguQq86WBSxDGkhdRsiI4+4i3pjw0IFPDWvWrTiraD+3WDoXXrUxtX9nmQn7SDK0b0w8Pl3qH/A==",
+  "dgSpecHash": "NeVb600Jn02R6KSh9JWXt6gwor+fSctqsf5E7McicqAzu48+jGAYdstzEi7a78BWTUPRgKDhKQQed9O7+IrG3Q==",
   "success": true,
   "projectFilePath": "/Users/ryanpinkney/Documents/GitHub/isgangintex4.0/AuthLab2_RyanPinkney/AuthLab2_RyanPinkney.csproj",
   "expectedPackageFiles": [
     "/Users/ryanpinkney/.nuget/packages/awssdk.core/3.7.10.3/awssdk.core.3.7.10.3.nupkg.sha512",
     "/Users/ryanpinkney/.nuget/packages/blazorpagination/0.2.16/blazorpagination.0.2.16.nupkg.sha512",
-    "/Users/ryanpinkney/.nuget/packages/microsoft.aspnetcore.authentication.google/3.1.22/microsoft.aspnetcore.authentication.google.3.1.22.nupkg.sha512",
     "/Users/ryanpinkney/.nuget/packages/microsoft.aspnetcore.authorization/3.1.7/microsoft.aspnetcore.authorization.3.1.7.nupkg.sha512",
     "/Users/ryanpinkney/.nuget/packages/microsoft.aspnetcore.components/3.1.7/microsoft.aspnetcore.components.3.1.7.nupkg.sha512",
     "/Users/ryanpinkney/.nuget/packages/microsoft.aspnetcore.components.analyzers/3.1.7/microsoft.aspnetcore.components.analyzers.3.1.7.nupkg.sha512",

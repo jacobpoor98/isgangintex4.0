@@ -33,7 +33,6 @@
         "dependencies": {
           "AWSSDK.Core": "3.7.10.3",
           "BlazorPagination": "0.2.16",
-          "Microsoft.AspNetCore.Authentication.Google": "3.1.22",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "3.1.22",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.22",
           "Microsoft.AspNetCore.Identity.UI": "3.1.22",
@@ -333,17 +332,6 @@
         },
         "compile": {
           "lib/netstandard2.1/BlazorPagination.dll": {}
-        }
-      },
-      "Microsoft.AspNetCore.Authentication.Google/3.1.22": {
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.dll": {
-            "assemblyVersion": "3.1.22.0",
-            "fileVersion": "3.100.2221.57904"
-          }
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.dll": {}
         }
       },
       "Microsoft.AspNetCore.Authorization/3.1.7": {
@@ -1398,7 +1386,7 @@
           "runtimes/win-arm/native/onnxruntime.dll": {
             "rid": "win-arm",
             "assetType": "native",
-            "fileVersion": "1.11.22.318"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-arm/native/onnxruntime.lib": {
             "rid": "win-arm",
@@ -1418,7 +1406,7 @@
           "runtimes/win-arm64/native/onnxruntime.dll": {
             "rid": "win-arm64",
             "assetType": "native",
-            "fileVersion": "1.11.22.318"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-arm64/native/onnxruntime.lib": {
             "rid": "win-arm64",
@@ -1438,7 +1426,7 @@
           "runtimes/win-x64/native/onnxruntime.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "1.11.22.318"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x64/native/onnxruntime.lib": {
             "rid": "win-x64",
@@ -1458,7 +1446,7 @@
           "runtimes/win-x86/native/onnxruntime.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "1.11.22.318"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x86/native/onnxruntime.lib": {
             "rid": "win-x86",
@@ -1803,7 +1791,7 @@
           "runtimes/win-arm64/native/sni.dll": {
             "rid": "win-arm64",
             "assetType": "native",
-            "fileVersion": "4.6.25512.1"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -1812,7 +1800,7 @@
           "runtimes/win-x64/native/sni.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "4.6.25512.1"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -1821,7 +1809,7 @@
           "runtimes/win-x86/native/sni.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "4.6.25512.1"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -4453,13 +4441,6 @@
       "sha512": "sha512-I+xwdPSNDU3yhgKF/E+Wi+io1H9h5edinKqpg2BpS2hLPT/dGObDpNaJbEfvs0qcUxwrKzbM3dJXIDyBCDL4kQ==",
       "path": "blazorpagination/0.2.16",
       "hashPath": "blazorpagination.0.2.16.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Authentication.Google/3.1.22": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-NqlKG+i0B3pehU0EspO/A6hxURdJuwXyKkikpnG983/KoMEIuCilBHfSleeoiKGs5sGV/PCo4brRDF5jdjQetw==",
-      "path": "microsoft.aspnetcore.authentication.google/3.1.22",
-      "hashPath": "microsoft.aspnetcore.authentication.google.3.1.22.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization/3.1.7": {
       "type": "package",

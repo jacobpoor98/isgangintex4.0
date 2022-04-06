@@ -64,13 +64,13 @@ namespace AuthLab2_RyanPinkney
             //    );
 
 
-            services.AddAuthentication().AddGoogle(options =>
-                 {
-                     IConfigurationSection googleAuthNSection =
-                     Configuration.GetSection("Authentication:Google");
-                     options.ClientId = googleAuthNSection["ClientId"];
-                     options.ClientSecret = googleAuthNSection["ClientSecret"];
-                 });
+            //services.AddAuthentication().AddGoogle(options =>
+            //     {
+            //         IConfigurationSection googleAuthNSection =
+            //         Configuration.GetSection("Authentication:Google");
+            //         options.ClientId = googleAuthNSection["ClientId"];
+            //         options.ClientSecret = googleAuthNSection["ClientSecret"];
+            //     });
 
 
             // Add this to add razor pages
