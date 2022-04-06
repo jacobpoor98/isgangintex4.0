@@ -33,7 +33,6 @@
         "dependencies": {
           "AWSSDK.Core": "3.7.10.3",
           "BlazorPagination": "0.2.16",
-          "Microsoft.AspNetCore.Authentication.Google": "3.1.22",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "3.1.22",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.22",
           "Microsoft.AspNetCore.Identity.UI": "3.1.22",
@@ -333,17 +332,6 @@
         },
         "compile": {
           "lib/netstandard2.1/BlazorPagination.dll": {}
-        }
-      },
-      "Microsoft.AspNetCore.Authentication.Google/3.1.22": {
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.dll": {
-            "assemblyVersion": "3.1.22.0",
-            "fileVersion": "3.100.2221.57904"
-          }
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.dll": {}
         }
       },
       "Microsoft.AspNetCore.Authorization/3.1.7": {
@@ -4453,13 +4441,6 @@
       "sha512": "sha512-I+xwdPSNDU3yhgKF/E+Wi+io1H9h5edinKqpg2BpS2hLPT/dGObDpNaJbEfvs0qcUxwrKzbM3dJXIDyBCDL4kQ==",
       "path": "blazorpagination/0.2.16",
       "hashPath": "blazorpagination.0.2.16.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Authentication.Google/3.1.22": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-NqlKG+i0B3pehU0EspO/A6hxURdJuwXyKkikpnG983/KoMEIuCilBHfSleeoiKGs5sGV/PCo4brRDF5jdjQetw==",
-      "path": "microsoft.aspnetcore.authentication.google/3.1.22",
-      "hashPath": "microsoft.aspnetcore.authentication.google.3.1.22.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization/3.1.7": {
       "type": "package",

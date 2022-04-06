@@ -857,7 +857,6 @@
 /Users/ryanpinkney/Documents/GitHub/isgangintex4.0/AuthLab2_RyanPinkney/bin/Debug/netcoreapp3.1/AuthLab2_RyanPinkney.Views.pdb
 /Users/ryanpinkney/Documents/GitHub/isgangintex4.0/AuthLab2_RyanPinkney/bin/Debug/netcoreapp3.1/AWSSDK.Core.dll
 /Users/ryanpinkney/Documents/GitHub/isgangintex4.0/AuthLab2_RyanPinkney/bin/Debug/netcoreapp3.1/BlazorPagination.dll
-/Users/ryanpinkney/Documents/GitHub/isgangintex4.0/AuthLab2_RyanPinkney/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.dll
 /Users/ryanpinkney/Documents/GitHub/isgangintex4.0/AuthLab2_RyanPinkney/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authorization.dll
 /Users/ryanpinkney/Documents/GitHub/isgangintex4.0/AuthLab2_RyanPinkney/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Components.dll
 /Users/ryanpinkney/Documents/GitHub/isgangintex4.0/AuthLab2_RyanPinkney/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Components.Forms.dll
