@@ -133,25 +133,26 @@
         <h5>Search for a record (Crash_ID):</h5>
         <div class="form-group">
             <input class="form-control" type="number"
-                    @bind="Filter"
-                    @bind:event="oninput">
+                   @bind="Filter"
+                   @bind:event="oninput">
 
         </div>
         <button class="btn btn-info btn-sm" @onclick="@(x => FilterData(Filter))">Search</button>
+        <button class="btn btn-info btn-sm" @onclick="@(x => UpdateData())">Reset All</button>
         <br />
         <br />
 
-        <h5>Search by City:</h5>
+        @*<h5>Search by City:</h5>
         <div class="form-group">
             <input class="form-control" type="text"
-                    @bind="City"
-                    @bind:event="oninput">
+                   @bind="City"
+                   @bind:event="oninput">
 
         </div>
         <button class="btn btn-info btn-sm" @onclick="@(x => FilterData2(City))">Search</button>
         <button class="btn btn-info btn-sm" @onclick="@(x => UpdateData())">Reset All</button>
         <br />
-        <br />
+        <br />*@
 
         <!--Button to create a project-->
         <NavLink class="btn btn-primary" href="admin/crashes/create">Create New Report</NavLink>

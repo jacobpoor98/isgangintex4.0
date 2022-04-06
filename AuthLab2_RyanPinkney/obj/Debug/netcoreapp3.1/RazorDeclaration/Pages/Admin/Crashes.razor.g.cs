@@ -112,6 +112,7 @@ using Microsoft.JSInterop;
     {
         AccidentData = await repo.Accidents
             .Where(x => x.city == City)
+            .OrderByDescending(u => u.crash_id)
             .ToListAsync();
     }
 
