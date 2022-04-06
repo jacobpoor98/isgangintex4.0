@@ -33,6 +33,13 @@ namespace AuthLab2_RyanPinkney.Controllers
             return View("SeverityModel", prediction);
         }
 
+        // First route for the result
+        public IActionResult Result()
+        {
+            return View();
+        }
+
+
 
     }
 }
