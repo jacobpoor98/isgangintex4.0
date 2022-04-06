@@ -1,16 +1,25 @@
 ﻿<Properties StartupConfiguration="{C10269A0-0524-428E-9EE9-D27C61DEB03C}|Default">
   <MonoDevelop.Ide.ItemProperties.AuthLab2__RyanPinkney PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="AuthLab2_RyanPinkney/CrashData.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AuthLab2_RyanPinkney/Views/Home/SeverityModel.cshtml">
     <Files>
       <File FileName="AuthLab2_RyanPinkney/Controllers/InferenceController.cs" Line="36" Column="1" />
-      <File FileName="AuthLab2_RyanPinkney/CrashData.cs" Line="6" Column="7" />
+      <File FileName="AuthLab2_RyanPinkney/CrashData.cs" Line="32" Column="1" />
+      <File FileName="AuthLab2_RyanPinkney/Prediction.cs" Line="13" Column="1" />
+      <File FileName="AuthLab2_RyanPinkney/Views/Home/Result.cshtml" Line="15" Column="1" />
+      <File FileName="AuthLab2_RyanPinkney/Startup.cs" Line="65" Column="1" />
+      <File FileName="AuthLab2_RyanPinkney/Views/Home/SeverityModel.cshtml" Line="72" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AuthLab2_RyanPinkney" expanded="True">
             <Node name="AuthLab2_RyanPinkney" expanded="True">
-              <Node name="CrashData.cs" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True">
+                  <Node name="SeverityModel.cshtml" selected="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
