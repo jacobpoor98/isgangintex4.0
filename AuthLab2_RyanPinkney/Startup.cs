@@ -59,9 +59,9 @@ namespace AuthLab2_RyanPinkney
                 options.Password.RequiredUniqueChars = 1;
             });
 
-            services.AddSingleton<InferenceSession>(
-                  new InferenceSession("Models/car_crash.onnx")
-                );
+            //services.AddSingleton<InferenceSession>(
+            //      new InferenceSession("Models/car_crash.onnx")
+            //    );
 
 
             services.AddAuthentication().AddGoogle(options =>

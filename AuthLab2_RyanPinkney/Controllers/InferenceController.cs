@@ -27,7 +27,7 @@ namespace AuthLab2_RyanPinkney.Controllers
                 NamedOnnxValue.CreateFromTensor("float_input", data.AsTensor())
             });
             Tensor<float> score = result.First().AsTensor<float>();
-            var prediction = new Prediction { PredictedValue = score.First() * 100000 };
+            var prediction = new Prediction { PredictedValue = score.First()};
             result.Dispose();
 
             return View("SeverityModel", prediction);
