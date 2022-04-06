@@ -9841,19 +9841,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/jacob.poor98/.nuget/packages/": {}
+    "/Users/ryanpinkney/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jacob.poor98/Documents/GitHub/isgangintex3.0/AuthLab2_RyanPinkney/AuthLab2_RyanPinkney.csproj",
+      "projectUniqueName": "/Users/ryanpinkney/Documents/GitHub/isgangintex4.0/AuthLab2_RyanPinkney/AuthLab2_RyanPinkney.csproj",
       "projectName": "AuthLab2_RyanPinkney",
-      "projectPath": "/Users/jacob.poor98/Documents/GitHub/isgangintex3.0/AuthLab2_RyanPinkney/AuthLab2_RyanPinkney.csproj",
-      "packagesPath": "/Users/jacob.poor98/.nuget/packages/",
-      "outputPath": "/Users/jacob.poor98/Documents/GitHub/isgangintex3.0/AuthLab2_RyanPinkney/obj/",
+      "projectPath": "/Users/ryanpinkney/Documents/GitHub/isgangintex4.0/AuthLab2_RyanPinkney/AuthLab2_RyanPinkney.csproj",
+      "packagesPath": "/Users/ryanpinkney/.nuget/packages/",
+      "outputPath": "/Users/ryanpinkney/Documents/GitHub/isgangintex4.0/AuthLab2_RyanPinkney/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/jacob.poor98/.config/NuGet/NuGet.Config"
+        "/Users/ryanpinkney/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -9950,7 +9950,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.103/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.102/RuntimeIdentifierGraph.json"
       }
     }
   }

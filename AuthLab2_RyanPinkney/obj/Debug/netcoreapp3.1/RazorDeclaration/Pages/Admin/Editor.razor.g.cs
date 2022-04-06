@@ -12,49 +12,49 @@ namespace AuthLab2_RyanPinkney.Pages.Admin
     using System.Linq;
     using System.Threading.Tasks;
 #nullable restore
-#line 1 "/Users/ryanpinkney/Documents/GitHub/isgangintex3.0/AuthLab2_RyanPinkney/Pages/Admin/_Imports.razor"
+#line 1 "/Users/ryanpinkney/Documents/GitHub/isgangintex4.0/AuthLab2_RyanPinkney/Pages/Admin/_Imports.razor"
 using Microsoft.AspNetCore.Components;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "/Users/ryanpinkney/Documents/GitHub/isgangintex3.0/AuthLab2_RyanPinkney/Pages/Admin/_Imports.razor"
+#line 2 "/Users/ryanpinkney/Documents/GitHub/isgangintex4.0/AuthLab2_RyanPinkney/Pages/Admin/_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "/Users/ryanpinkney/Documents/GitHub/isgangintex3.0/AuthLab2_RyanPinkney/Pages/Admin/_Imports.razor"
+#line 3 "/Users/ryanpinkney/Documents/GitHub/isgangintex4.0/AuthLab2_RyanPinkney/Pages/Admin/_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "/Users/ryanpinkney/Documents/GitHub/isgangintex3.0/AuthLab2_RyanPinkney/Pages/Admin/_Imports.razor"
+#line 4 "/Users/ryanpinkney/Documents/GitHub/isgangintex4.0/AuthLab2_RyanPinkney/Pages/Admin/_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "/Users/ryanpinkney/Documents/GitHub/isgangintex3.0/AuthLab2_RyanPinkney/Pages/Admin/_Imports.razor"
+#line 6 "/Users/ryanpinkney/Documents/GitHub/isgangintex4.0/AuthLab2_RyanPinkney/Pages/Admin/_Imports.razor"
 using Microsoft.EntityFrameworkCore;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "/Users/ryanpinkney/Documents/GitHub/isgangintex3.0/AuthLab2_RyanPinkney/Pages/Admin/_Imports.razor"
+#line 8 "/Users/ryanpinkney/Documents/GitHub/isgangintex4.0/AuthLab2_RyanPinkney/Pages/Admin/_Imports.razor"
 using AuthLab2_RyanPinkney.Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "/Users/ryanpinkney/Documents/GitHub/isgangintex3.0/AuthLab2_RyanPinkney/Pages/Admin/_Imports.razor"
+#line 9 "/Users/ryanpinkney/Documents/GitHub/isgangintex4.0/AuthLab2_RyanPinkney/Pages/Admin/_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
@@ -70,7 +70,7 @@ using Microsoft.JSInterop;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 5 "/Users/ryanpinkney/Documents/GitHub/isgangintex3.0/AuthLab2_RyanPinkney/Pages/Admin/Editor.razor"
+#line 5 "/Users/ryanpinkney/Documents/GitHub/isgangintex4.0/AuthLab2_RyanPinkney/Pages/Admin/Editor.razor"
        
 
     [Parameter]
@@ -88,7 +88,7 @@ using Microsoft.JSInterop;
     {
         if (Id != 0)
         {
-            a = repo.Accidents.FirstOrDefault(x => x.CRASH_ID == Id);
+            a = repo.Accidents.FirstOrDefault(x => x.crash_id == Id);
         }
     }
 
@@ -98,9 +98,9 @@ using Microsoft.JSInterop;
         if (Id == 0)
         {
 
-            var oSingleTimeMax = repo.Accidents.OrderByDescending(u => u.CRASH_ID).FirstOrDefault();
+            var oSingleTimeMax = repo.Accidents.OrderByDescending(u => u.crash_id).FirstOrDefault();
 
-            a.CRASH_ID = oSingleTimeMax.CRASH_ID + 1;
+            a.crash_id = oSingleTimeMax.crash_id + 1;
 
 
             repo.AddAccident(a);
