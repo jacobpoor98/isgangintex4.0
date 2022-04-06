@@ -6,10 +6,6 @@
         <State name="__root__">
           <Node name="AuthLab2_RyanPinkney" expanded="True">
             <Node name="AuthLab2_RyanPinkney" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
-              </Node>
               <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
