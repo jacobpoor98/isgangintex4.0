@@ -19,6 +19,7 @@ namespace AuthLab2_RyanPinkney.Controllers
             _session = session;
         }
 
+
         [HttpPost]
         public ActionResult Score(CrashData data)
         {
@@ -30,7 +31,7 @@ namespace AuthLab2_RyanPinkney.Controllers
             var prediction = new Prediction { PredictedValue = score.Last()};
             result.Dispose();
 
-            return View("SeverityModel", prediction);
+            return View("Result", prediction);
         }
 
         // First route for the result
