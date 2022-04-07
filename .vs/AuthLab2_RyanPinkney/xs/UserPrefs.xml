@@ -2,17 +2,16 @@
   <MonoDevelop.Ide.ItemProperties.AuthLab2__RyanPinkney PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="AuthLab2_RyanPinkney/Startup.cs">
     <Files>
-      <File FileName="AuthLab2_RyanPinkney/Startup.cs" Line="107" Column="39" />
+      <File FileName="AuthLab2_RyanPinkney/Startup.cs" Line="74" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AuthLab2_RyanPinkney" expanded="True">
-            <Node name="AuthLab2_RyanPinkney" expanded="True">
+            <Node name="AuthLab2_RyanPinkney" expanded="True" selected="True">
               <Node name="Views" expanded="True">
                 <Node name="Shared" expanded="True" />
               </Node>
-              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -20,7 +19,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <Debugger.DebugSourceFolders>
     <String>/Users/ryanpinkney/Library/Caches/VisualStudio/8.0/Symbols/mysql-net/MySqlConnector/cb421c59667b043e10c0a3a92708edda879934cc</String>
   </Debugger.DebugSourceFolders>
