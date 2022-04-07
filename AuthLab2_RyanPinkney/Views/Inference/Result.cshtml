@@ -7,8 +7,21 @@
 
 @model Prediction
 
-<h3>Here is the predicted crash severity</h3>
-<h1>Score: @Model.PredictedValue</h1>
+<div class="container"></div>
+    <div class="row">
+        <div class="col-1">
 
-@*<label asp-for="PredictedValue">Predicted Value</label>
-<input asp-for="PredictedValue" />*@
+        </div>
+        <div class="col text-center">
+            <h3>Here is the predicted crash severity</h3>
+            <h1>Score: @Model.PredictedValue</h1>
+
+
+        </div>
+
+
+    </div>
+
+
+
+

@@ -60,7 +60,7 @@ namespace AuthLab2_RyanPinkney
             });
 
             services.AddSingleton<InferenceSession>(
-                  new InferenceSession("crash_final2.onnx")
+                  new InferenceSession("Models/crash_final2.onnx")
                 );
 
 

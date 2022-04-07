@@ -9825,7 +9825,7 @@
       "outputPath": "/Users/ryanpinkney/Documents/GitHub/isgangintex4.0/AuthLab2_RyanPinkney/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/ryanpinkney/.config/NuGet/NuGet.Config"
+        "/Users/ryanpinkney/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

@@ -794,3 +794,4 @@
 /Users/ryanpinkney/Documents/GitHub/isgangintex4.0/AuthLab2_RyanPinkney/obj/Release/netcoreapp3.1/AuthLab2_RyanPinkney.pdb
 /Users/ryanpinkney/Documents/GitHub/isgangintex4.0/AuthLab2_RyanPinkney/obj/Release/netcoreapp3.1/AuthLab2_RyanPinkney.genruntimeconfig.cache
 /Users/ryanpinkney/Documents/GitHub/isgangintex4.0/AuthLab2_RyanPinkney/bin/Release/netcoreapp3.1/AuthLab2_RyanPinkney
+/Users/ryanpinkney/Documents/GitHub/isgangintex4.0/AuthLab2_RyanPinkney/obj/Release/netcoreapp3.1/Razor/Views/Inference/Result.cshtml.g.cs
